@@ -1,0 +1,19 @@
+:root {
+  --body-color: #e3dfdf;
+}
+
+body {
+  background-color: var(--body-color);
+}
+
+.categories {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+  .categories {
+    flex-direction: column;
+    text-align: center;
+  }
+}
